@@ -38,3 +38,24 @@ This project simulates deploying a Node.js backend service using Docker, Docker 
 ```bash
 git clone https://github.com/sree125/devops-ecommerce-project.git
 cd devops-ecommerce-project
+
+## 🧰 Terraform Mock Setup
+
+This simulates provisioning an EC2 instance using a local `null_resource` block.
+
+### Run:
+```bash
+cd terraform
+terraform init
+terraform apply
+
+Then save: `Ctrl + O`, `Enter`, `Ctrl + X`
+
+---
+
+## ✅ Step 3: Commit & Push the README Update
+
+```bash
+git add README.md
+git commit -m "Update README with Terraform simulation instructions"
+git push
