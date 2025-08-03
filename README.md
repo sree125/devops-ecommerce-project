@@ -59,3 +59,8 @@ Then save: `Ctrl + O`, `Enter`, `Ctrl + X`
 git add README.md
 git commit -m "Update README with Terraform simulation instructions"
 git push
+
+## 📎 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+You're free to use, modify, and distribute it — just give credit!
